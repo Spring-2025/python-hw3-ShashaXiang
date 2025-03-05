@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1-ESIgLZm9ez2AvOXnNtyKWj8-I1JtBat
 """
 
-import numpy as nu
+import numpy as np
 
 def ES(losses, confidence=None, VaR=None, use_PnL=False):
   if VaR is None:
